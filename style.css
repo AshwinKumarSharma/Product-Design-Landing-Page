@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    margin: 30px auto 0px;
+}
+
+.navbar-logo {
+    flex: 1;
+    margin-left: 90px;
+}
+
+.nav-logo {
+    width: 100px;
+}
+
+.navbar-menu-list {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-right: 200px;
+}
+
+.nav-menu-list {
+    margin-left: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* About Me Section */
+
+.about-me-section {
+    display: flex;
+}
+
+.about-me-image {
+    flex: 1;
+    margin-left: 130px;
+}
+
+.me-img {
+    width: 450px;
+}
+
+.about-me-details {
+    flex: 2;
+    margin-right: 200px;
+    margin-top: 150px;
+}
+
+.name {
+    color: #d43d3d;
+    text-transform: capitalize;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.designer {
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.about-me {
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    width: 470px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #d43d3d;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Main Section */
+
+.blank {
+    background-color: #282626;
+    width: 670px;
+    height: 900px;
+    z-index: -1;
+}
+
+.product-cards {
+    display: flex;
+    margin-left: 240px;
+    margin-right: 200px;
+    gap: 20px;
+    position: relative;
+    bottom: 800px;
+}
+
+.product-card {
+    flex: 1;
+    background-color: #302e2e;
+    padding: 50px 10px 30px 50px;
+    
+}
+
+.product-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.product-description {
+    width: 200px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    transform: scaleX(110%);
+}
+
+.know-more {
+    color: #d43d3d;
+    cursor: pointer;
+}
+
+#know-more-active {
+    color: #ffffff;
+}
+
+.arrow {
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+#ui-design-img {
+    width: 55px;
+}
+
+#product-design-card {
+    background-color: #d43d3d;
+}
+
+/* Experience & Achievement */
+
+.experience-achievement {
+    display: flex;
+    margin-left: 170px;
+    position: relative;
+    padding: 30px;
+    bottom: 600px;
+}
+
+.experience {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+}
+
+.years {
+    font-size: 80px;
+    margin-top: 30px;
+    color: #d43d3d;
+}
+
+.exp {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+/* Achievement Cards */
+
+.achievement-cards {
+    flex: 2;
+    display: flex;
+    /* margin-right: 200px; */
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 130px;
+    right: 20px;
+}
+
+.achievement-card {
+    background-color: #302e2e;
+    padding: 15px 70px;
+    width: 145px;
+}
+
+.card-num {
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: #d43d3d;
+}
+
+/* Featured Projects */
+
+.project-section{
+    position: relative;
+    bottom: 550px;
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.featured-project {
+    flex: 3;
+    margin-left: 240px;
+}
+
+.featuren-project-btn {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.featured-project-heading {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.featured-poject-description {
+    font-size: 15px;
+}
+
+.featured-project-display {
+    display: flex;
+    width: 915px;
+    margin-left: 240px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.project-cards {
+    flex: 1;
+}
+
+.project-img {
+    background-color: #302e2e;
+    align-items: center;
+}
+
+.project-image {
+    width: 400px;
+    padding: 50px 20px;
+    cursor: pointer;
+}
+
+.display-project-heading {
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.mozaik-img {
+    height: 265px;
+}
+
+/* Contact Section */
+
+.contact {
+    display: flex;
+    position: relative;
+    bottom: 500px;
+    margin-left: 220px;
+    background-color: #302e2e;
+    margin-right: 160px;
+    padding: 60px 30px;
+    align-items: center;
+}
+
+.contact-header {
+    flex: 2;
+}
+
+.contact-heading {
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.contact-description {
+    font-size: 15px;
+    width: 500px;
+}
+
+.contact-btn {
+    flex: 1;
+    position: relative;
+    left: 80px;
+}
+
+/* Footer Navbar */
+
+.footer-nav {
+    position: relative;
+    bottom: 420px;
+}
+
+.footer-navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer-nav-items {
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #302e2e;
+    position: relative;
+    bottom: 380px;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    flex: 1;
+    margin-left: 220px;
+}
+
+.social-media-icons {
+    flex: 2;
+    justify-content: center;
+}
+
+.footer-logo-img {
+    width: 80px;
+}
+
+.icons {
+    margin-left: 15px;
+    margin-right: 15px;
+}
